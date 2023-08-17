@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+#User custom ignore folders
+_Build/*
+Assets/Photon/*
+Assets/2D Space Kit/*
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
