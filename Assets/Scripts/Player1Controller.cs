@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public MissileScript missile;
     public NukeScript nuke;
+    protected RandomWarp RandomWarp;
 
     Rigidbody2D rigidbodyPlayer1;
 
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
         SetLimitedMovement();
         missile = GetComponent<MissileScript>();
         nuke = GetComponent<NukeScript>();
+        RandomWarp = GetComponent<RandomWarp>();
     }
 
     void Update()
@@ -132,23 +134,17 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (missile != null)
-            {
-                Debug.Log("PEW :)");
-                missile.SpawnProjectile();
-            }
+            Debug.Log("PEW :)");
+            missile.SpawnProjectile();
         }
     }
 
     void NuclearAttack()
     {
         if (Input.GetKey(KeyCode.LeftShift))
-        {            
-            if(nuke != null)
-            {
-                Debug.Log("Kabooom");
-                nuke.SpawnProjectile();
-            }
+        {
+            Debug.Log("Kabooom");
+            nuke.SpawnProjectile();
         }
     }
 
@@ -158,9 +154,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Warping....");
 
-            float newX = Random.Range(leftBoundary.x, rightBoundary.x);
-            float newY = Random.Range(lowerBoundary.y, upperBoundary.y);
-            transform.position = new Vector3(newX, newY, transform.position.z);
+            RandomWarp.RandomWarping();
         }
     }
 }

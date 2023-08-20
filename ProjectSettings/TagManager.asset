@@ -9,6 +9,7 @@ TagManager:
   - Player2
   - Sun
   - Missile
+  - ShootingArea
   layers:
   - Default
   - TransparentFX

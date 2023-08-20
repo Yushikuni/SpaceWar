@@ -10,7 +10,7 @@ public class MissileScript : MonoBehaviour
     public void SpawnProjectile()
     {
         Debug.Log("In function SPAW PROJECTILE…");
-        if (ProjectilePrefab != null)
+        if (ProjectilePrefab != null && ProjectileSpawner != null)
         {
             Debug.Log("Not Null SPAWNING…");
             Instantiate(ProjectilePrefab, ProjectileSpawner.position, ProjectileSpawner.rotation);
