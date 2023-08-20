@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour
     Vector3 leftBoundary;
     Vector3 rightBoundary;
 
-    public MissileScript missile;
-    public NukeScript nuke;
+    protected MissileScript missile;
+    protected NukeScript nuke;
     protected RandomWarp RandomWarp;
 
     Rigidbody2D rigidbodyPlayer1;

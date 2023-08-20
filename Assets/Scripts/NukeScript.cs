@@ -9,8 +9,10 @@ public class NukeScript : MonoBehaviour
     //Spawn Nuke bomb with coldown 5 minutes
     public void SpawnProjectile()
     {
-        if (ProjectilePrefab != null)
+        Debug.Log("In function SPAW NUKE…");
+        if (ProjectilePrefab != null && ProjectileSpawner != null)
         {
+            Debug.Log("Not Null SPAWNING…");
             Instantiate(ProjectilePrefab, ProjectileSpawner.position, ProjectileSpawner.rotation);
         }
     }
