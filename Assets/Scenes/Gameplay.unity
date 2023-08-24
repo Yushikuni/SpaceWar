@@ -523,6 +523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Missale_Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 8869731371135689999, guid: 7d2111dbcbacfcc4386d7ff93fd103ab, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
