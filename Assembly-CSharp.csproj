@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\Scripts\GameMode.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\NukeScript.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Scripts\RandomWarp.cs" />
     <Compile Include="Assets\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\Scripts\UnlimitedPlayground.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
