@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        Screen.SetResolution(800, 600, false);
         rigidbodyPlayer1 = GetComponent<Rigidbody2D>();
         rigidbodyPlayer1.gravityScale = 1;
         missile = GetComponent<MissileScript>();
