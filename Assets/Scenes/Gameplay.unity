@@ -178,6 +178,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5a9cc5ab949134999416820229d706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 5
+  rotationSpeed: 5
+--- !u!114 &932290340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932290325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d10b942695e90d43b51016d8e399214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &278612490198281691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -279,6 +293,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
       insertIndex: -1
       addedObject: {fileID: 932290334}
+    - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 932290340}
   m_SourcePrefab: {fileID: 100100000, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
 --- !u!1001 &3321667746843932874
 PrefabInstance:
