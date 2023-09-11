@@ -6,8 +6,8 @@ public class UnlimitedPlayground : MonoBehaviour
 {
     private bool movingUpwards = true;
     private bool movingRightwards = true;
-    float moveHorizontal;
-    float moveVertical;
+    public float moveHorizontal;
+    public float moveVertical;
     Vector3 upperBoundary;
     Vector3 lowerBoundary;
     Vector3 leftBoundary;

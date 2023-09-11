@@ -9,11 +9,10 @@ public class PlayerMovement : MonoBehaviour
 
     public float movementSpeed = 5f;
     public float rotationSpeed = 5f;
-    float moveHorizontal;
-    float moveVertical;
 
 
     protected UnlimitedPlayground unlimitedPlayground;
+
     void Start()
     {
         unlimitedPlayground.UnlimitedPlayerground();
@@ -29,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical = Input.GetAxis("Vertical");
+        unlimitedPlayground.moveHorizontal = Input.GetAxis("Horizontal");
+        unlimitedPlayground.moveVertical = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0) * movementSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(unlimitedPlayground.moveHorizontal, unlimitedPlayground.moveVertical, 0) * movementSpeed * Time.deltaTime;
         transform.Translate(movement);
     }
 
