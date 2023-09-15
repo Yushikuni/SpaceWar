@@ -77,4 +77,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# custom folders and files
+/_Build/
+/Packages/
+/ProjectSettings/
+/Assets/
+
 # End of https://www.toptal.com/developers/gitignore/api/unity
