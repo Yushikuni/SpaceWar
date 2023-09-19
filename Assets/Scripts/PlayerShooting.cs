@@ -20,8 +20,9 @@ public class PlayerShooting : MonoBehaviour
             cooldownTimer = fireTimer;
 
             Vector3 offset = transform.rotation * bulletOffset;
-            GameObject bulletGO = (GameObject) Instantiate(bulletPrefab, transform.position, transform.rotation);
-            bulletGO.layer = gameObject.layer;
+            Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
+            // GameObject bulletGO = (GameObject) Instantiate(bulletPrefab, transform.position, transform.rotation);
+            //bulletGO.layer = gameObject.layer;
         }
     }
 }
