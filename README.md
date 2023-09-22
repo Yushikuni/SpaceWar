@@ -13,3 +13,13 @@
 * [ ] How to control spaceship/s
 
 ## How to control SpaceShip
+### Keyboard:
+
+*For movement use:
+WSAD
+
+*For primary missile use:
+left shift or spacebar
+
+*For nuke use:
+left ctrl
