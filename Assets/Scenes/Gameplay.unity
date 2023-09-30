@@ -133,9 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 241163132}
   - component: {fileID: 241163131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Missile_StandartShot
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,9 +217,9 @@ GameObject:
   m_Component:
   - component: {fileID: 851353782}
   - component: {fileID: 851353781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Missile_AtomicBomb
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,32 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbd8ce54d4daa94294d399c0871f1c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &932290332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932290325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2a7d1ffad863649aeb0213ed12f409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 5724592862490419062, guid: 3baebeec7dc70234fb516aa995a0d35d, type: 3}
---- !u!114 &932290333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932290325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab562ec814fa47c409ff56173c6b9295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 8583139675112504095, guid: dee47c7a0beef794789587952893d4c5, type: 3}
 --- !u!114 &932290340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,7 +335,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 241163130}
+  nukePrefab: {fileID: 851353780}
   bulletOffset: {x: 0, y: 2, z: 0}
+  nukeOffset: {x: 0, y: 0.5, z: 0}
   fireTimer: 0.5
 --- !u!114 &932290346
 MonoBehaviour:
@@ -486,12 +462,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
       insertIndex: -1
       addedObject: {fileID: 932290326}
-    - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 932290333}
-    - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 932290332}
     - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
       insertIndex: -1
       addedObject: {fileID: 932290340}
