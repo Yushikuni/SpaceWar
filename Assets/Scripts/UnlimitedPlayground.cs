@@ -13,17 +13,17 @@ public class UnlimitedPlayground : MonoBehaviour
     Vector3 leftBoundary;
     Vector3 rightBoundary;
 
-    protected PlayerController controller;
+    protected PlayerControler controler;
 
     void Start()
     {
         Screen.SetResolution(800, 600, false);
-        controller = GetComponent<PlayerController>();
+        controler = GetComponent<PlayerControler>();
     }
 
     private void Update()
     {
-        if (controller != null) 
+        if (controler != null) 
         {
             LimitedMovement();
         }

@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        unlimitedPlayground.UnlimitedPlayerground();
+        unlimitedPlayground = GetComponent<UnlimitedPlayground>();
     }
 
     // Update is called once per frame
