@@ -13,12 +13,12 @@ public class UnlimitedPlayground : MonoBehaviour
     Vector3 leftBoundary;
     Vector3 rightBoundary;
 
-    protected PlayerControler controler;
+    protected PlayerController controler;
 
     void Start()
     {
         Screen.SetResolution(800, 600, false);
-        controler = GetComponent<PlayerControler>();
+        controler = GetComponent<PlayerController>();
     }
 
     private void Update()

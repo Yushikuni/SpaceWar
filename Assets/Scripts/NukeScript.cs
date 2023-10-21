@@ -10,10 +10,10 @@ public class NukeScript : MonoBehaviour
     public void SpawnProjectile()
     {
         Debug.Log("In function SPAW NUKE…");
-        if (ProjectilePrefab != null && ProjectileSpawner != null)
+       /* if (ProjectilePrefab != null && ProjectileSpawner != null)
         {
             Debug.Log("Not Null SPAWNING…");
             Instantiate(ProjectilePrefab, ProjectileSpawner.position, ProjectileSpawner.rotation);
-        }
+        }*/
     }
 }

@@ -337,7 +337,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 241163130}
   nukePrefab: {fileID: 851353780}
   bulletOffset: {x: 0, y: 2, z: 0}
-  nukeOffset: {x: 0, y: 0.5, z: 0}
+  nukeOffset: {x: 0, y: 2, z: 0}
   fireTimer: 0.5
 --- !u!114 &932290346
 MonoBehaviour:
@@ -346,13 +346,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932290325}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d5a9cc5ab949134999416820229d706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
   rotationSpeed: 10
+--- !u!114 &932290347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932290325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5355c8d0daa0d2540ab247d333c0eaa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &278612490198281691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -453,8 +465,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4692789732944565249, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7654166709740694894, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
     m_AddedGameObjects: []
@@ -471,6 +482,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
       insertIndex: -1
       addedObject: {fileID: 932290346}
+    - targetCorrespondingSourceObject: {fileID: 1100009828044514279, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 932290347}
   m_SourcePrefab: {fileID: 100100000, guid: 827c619168cd9fb4d867c758b3ebd946, type: 3}
 --- !u!1001 &3321667746843932874
 PrefabInstance:

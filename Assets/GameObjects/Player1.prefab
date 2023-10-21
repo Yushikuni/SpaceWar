@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2585447078873246241}
   - component: {fileID: 7424107175594469655}
-  - component: {fileID: 4692789732944565249}
   - component: {fileID: 2751336505263429209}
   - component: {fileID: 2763626141343046776}
   m_Layer: 7
@@ -34,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 7843774687986019909}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &7424107175594469655
 SpriteRenderer:
@@ -88,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4692789732944565249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100009828044514279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5355c8d0daa0d2540ab247d333c0eaa6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missile: {fileID: 0}
-  nuke: {fileID: 0}
 --- !u!50 &2751336505263429209
 Rigidbody2D:
   serializedVersion: 4
