@@ -79,8 +79,6 @@ crashlytics-build.properties
 
 # custom folders and files
 /_Build/
-/Packages/
-/ProjectSettings/
-/Assets/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
