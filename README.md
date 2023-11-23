@@ -1,5 +1,7 @@
 # SpaceWar!
 
+This game should be a copy of original SpaceWar! game in Unity3D
+
 ## To-Do List:
 
 * [ ] Functional shooting
